@@ -1,3 +1,8 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-sequences */
+/* eslint-disable no-unused-expressions */
+/* eslint-disable no-shadow */
+/* eslint-disable no-spaced-func */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable no-alert */
 /* eslint-disable arrow-parens */
@@ -20,6 +25,7 @@ export default function Home() {
 
   const [formData, setFormData] = useState('');
   const [formDataBox, setFormDataBox] = useState([]);
+  const [formDataBtn, setFormDataBtn] = useState('');
 
   const handleChange = e => {
     const radioBox = e.target.value;
@@ -43,15 +49,9 @@ export default function Home() {
     });
   }, []);
 
-  function handleAddType(e) {
-    e.preventDefault();
-    api.get('Foods').then(response => {
-      const res = response.data;
-      const result = {
-        name: res.name,
-        id: res.id,
-      };
-    });
+  function handleAddType(item) {
+    setFormDataBtn(item);
+    console.log('>>>>>>>>>>>>>>>item', item);
   }
 
   function handleAddPedido(e) {
@@ -60,16 +60,16 @@ export default function Home() {
     api
       .post('solicitation', {
         id: Number,
-        name,
-        image: String,
-        price: String,
+        name: formDataBtn.name,
+        image: formDataBtn.image,
+        price: formDataBtn.price,
         description: formDataBox,
         massaDescription: formData,
-        size: String,
-        score: Number,
+        size: formDataBtn.size,
+        score: formDataBtn.score,
       })
       .then(() => {
-        alert(`Pedido realizado com sucesso. Você ganhou ${foods.score}  pontos.`);
+        alert(`Pedido realizado com sucesso. Você ganhou ${formDataBtn.score}  pontos.`);
         history.push('/');
       })
       .catch(() => {
@@ -110,8 +110,8 @@ export default function Home() {
               <section>
                 <legend>Recomendação da Semana</legend>
                 {foods.map(item => (
-                  <button type="button" onClick={handleAddType}>
-                    <CardItem key={foods.id} item={item} />
+                  <button type="button" onClick={() => handleAddType(item)}>
+                    <CardItem key={item.id} item={item} />
                   </button>
                 ))}
               </section>

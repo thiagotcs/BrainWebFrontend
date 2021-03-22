@@ -119,6 +119,29 @@
       "massaDescription": "",
       "size": "",
       "score": 0
+    },
+    {
+      "name": "CROCANTE",
+      "description": [
+        "Molho Agridoce",
+        "Ketchup",
+        "molho Mostarda e mel"
+      ],
+      "massaDescription": "Massa sem borda recheada",
+      "id": 2
+    },
+    {
+      "name": "ALHO E ÓLEO",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/7cdcad38-1104-4e5e-81de-caea0c98bb8f/202007290854_Zd0v_a.jpg",
+      "price": "47.90",
+      "description": [
+        "molho Mostarda e mel",
+        "Ketchup"
+      ],
+      "massaDescription": "Borda recheada de catupiry",
+      "size": "F - 12 PEDAÇOS",
+      "score": 100,
+      "id": 3
     }
   ],
   "users": [
@@ -128,6 +151,13 @@
       "age": 25,
       "email": "thiagotcs.dev@gmail.com",
       "Score": 100
+    },
+    {
+      "name": "tiago",
+      "age": "36",
+      "email": "tiago@gmail.com",
+      "Score": 30,
+      "id": 2
     }
   ],
   "connections": {
