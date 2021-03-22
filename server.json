@@ -1,0 +1,136 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "ALHO E ÓLEO",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/7cdcad38-1104-4e5e-81de-caea0c98bb8f/202007290854_Zd0v_a.jpg",
+      "price": "47.90",
+      "description": "MOLHO, MUSSARELA, ALHO CROCANTE, AZEITONA E ORÉGANO.",
+      "available": true,
+      "promotedItem": false,
+      "massaDescription": "",
+      "size": "F - 12 PEDAÇOS",
+      "score": 100
+    },
+    {
+      "id": 2,
+      "name": "CALABRESA",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/2b4a0dee-170e-49f3-a714-4204919045f8/202102091426_zNfP_.jpeg",
+      "price": "47.90",
+      "description": "MOLHO, MUSSARELA, CALABRESA FATIADA, CEBOLA, AZEITONA E ORÉGANO.",
+      "available": true,
+      "promotedItem": false,
+      "massaDescription": "",
+      "size": "F - 12 PEDAÇOS",
+      "score": 100
+    },
+    {
+      "id": 3,
+      "name": "CROCANTE",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/09abd920-2011-4f91-92f7-95abfa57d0cd/202008121810_KMXM_.jpeg",
+      "price": "49.90",
+      "description": "MOLHO, MUSSAREAL, BACON, BATATA PALHA A PARTE, CATUPIRY, AZEITONA E ORÉGANO",
+      "available": true,
+      "promotedItem": false,
+      "massaDescription": "",
+      "size": "F - 12 PEDAÇOS",
+      "score": 150
+    },
+    {
+      "id": 4,
+      "name": "FRANGO CATUPIRY",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/40666bb4-f1aa-4bf7-8f32-de08b01399ca/202010182243_EwqG_.jpeg",
+      "price": "39.90",
+      "description": "MOLHO, MUSSARELA, PEITO DE FRANGO DESFIADO, CATUPIRY, AZEITONA E ORÉGANO",
+      "available": true,
+      "promotedItem": false,
+      "massaDescription": "",
+      "size": "G - 8 PEDAÇOS",
+      "score": 80
+    },
+    {
+      "id": 5,
+      "name": "MARGUERITA",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/2b4a0dee-170e-49f3-a714-4204919045f8/202102091425_uhwc_.jpeg",
+      "price": "25.90",
+      "description": "MOLHO, MUSSARELA, PARMESÃO, RODELAS DE TOMATE E MANJERICÃO, AZEITONA E ORÉGANO",
+      "available": true,
+      "promotedItem": false,
+      "massaDescription": "",
+      "size": "G - 8 PEDAÇOS",
+      "score": 70
+    },
+    {
+      "id": 6,
+      "name": "MILHO",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/2b4a0dee-170e-49f3-a714-4204919045f8/202103061947_ncIP_.jpeg",
+      "price": "25.90",
+      "description": "MOLHO, MUSSARELA, MILHO, AZEITONA E ORÉGANO.",
+      "available": true,
+      "promotedItem": false,
+      "massaDescription": "",
+      "size": "M - 6 PEDAÇOS",
+      "score": 50
+    },
+    {
+      "id": 7,
+      "name": "MUSSARELA",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/1d44e871-213d-4861-a8f0-0893491a161a/202003251625_ELRl_.jpeg",
+      "price": "25.90",
+      "description": "MOLHO, MUSSARELA, AZEITONA E ORÉGANO.",
+      "available": true,
+      "promotedItem": false,
+      "massaDescription": "",
+      "size": "M - 6 PEDAÇOS",
+      "score": 50
+    },
+    {
+      "id": 8,
+      "name": "NAPOLITANA",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/b7ebaad8-e69c-4cfe-b1df-c625d3d0e265/201912021917_SYmu_n.jpg",
+      "price": "29.90",
+      "description": "MOLHO, PRESUNTO, MUSSARELA, AZEITONA, TOMATE E ORÉGANO.",
+      "available": true,
+      "promotedItem": false,
+      "massaDescription": "",
+      "size": "M - 6 PEDAÇOS",
+      "score": 60
+    },
+    {
+      "id": 9,
+      "name": "TOSCANA",
+      "image": "https://static-images.ifood.com.br/image/upload/t_high/pratos/57710065-ac54-4e10-856c-57ba3621a4a7/202102072023_oFga_.jpeg",
+      "price": "45.90",
+      "description": "MOLHO, MUSSARELA, CALABRESA FATIADA, AZEITONA E ORÉGANO.",
+      "available": true,
+      "promotedItem": false,
+      "massaDescription": "",
+      "size": "F - 12 PEDAÇOS",
+      "score": 120
+    }
+  ],
+  "solicitation": [
+    {
+      "id": 1,
+      "name": "",
+      "image": "",
+      "price": "",
+      "description": "",
+      "massaDescription": "",
+      "size": "",
+      "score": 0
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Thiago",
+      "age": 25,
+      "email": "thiagotcs.dev@gmail.com",
+      "Score": 100
+    }
+  ],
+  "connections": {
+    "total": 100
+  }
+}
